@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_why_choose_us_items",
+  "info": {
+    "displayName": "WhyChooseUsItem"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

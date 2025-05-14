@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_customer_reviews",
+  "info": {
+    "displayName": "CustomerReview"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "text"
+    },
+    "reviewText": {
+      "type": "blocks"
+    },
+    "reviewDate": {
+      "type": "datetime"
+    }
+  }
+}

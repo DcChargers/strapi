@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_contact_infos",
+  "info": {
+    "displayName": "ContactInfo"
+  },
+  "options": {},
+  "attributes": {
+    "phoneNumber": {
+      "type": "text"
+    },
+    "emailAddress": {
+      "type": "text"
+    },
+    "locationMapEmbed": {
+      "type": "text"
+    }
+  }
+}
