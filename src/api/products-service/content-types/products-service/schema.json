@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "products_services",
+  "info": {
+    "singularName": "products-service",
+    "pluralName": "products-services",
+    "displayName": "productsService",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "description": {
+      "type": "blocks",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "products": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.products-service",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

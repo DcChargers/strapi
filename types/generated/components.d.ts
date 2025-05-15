@@ -63,6 +63,19 @@ export interface SharedMedia extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedProductsService extends Struct.ComponentSchema {
+  collectionName: 'components_shared_products_services';
+  info: {
+    displayName: 'productsService';
+  };
+  attributes: {
+    description: Schema.Attribute.Text;
+    icon: Schema.Attribute.String;
+    image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    title: Schema.Attribute.Text;
+  };
+}
+
 export interface SharedQuote extends Struct.ComponentSchema {
   collectionName: 'components_shared_quotes';
   info: {
@@ -147,6 +160,7 @@ declare module '@strapi/strapi' {
       'shared.customer-review': SharedCustomerReview;
       'shared.hero-section': SharedHeroSection;
       'shared.media': SharedMedia;
+      'shared.products-service': SharedProductsService;
       'shared.quote': SharedQuote;
       'shared.rich-text': SharedRichText;
       'shared.seo': SharedSeo;
